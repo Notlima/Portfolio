@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+  <link rel="stylesheet" href="/public/build/tailwind.css">
+  <title>Amilton Portifolio</title>
+</head>
+<body class="bg-zinc-950">
+  <div class="md:grid md:grid-cols-12 md:grid-flow-dense md:h-full xl:container xl:mx-auto 2xl:max-w-[1280px]">
+
+    <!-- Navigation -->
+    <nav class="flex items-center justify-between bg-zinc-900 text-white m-6 mb-0 p-3.5 rounded-2xl md:mb-6 md:col-span-12">
+      <a href="#" class="text-gray-300">Amilton <span class="font-semibold text-white">Castro</span></a>
+      <div class="text-xl">
+        <i class="bx bx-menu cursor-pointer"></i>
+      </div>
+    </nav>
+
+    <!-- Profile -->
+    <div class="p-6 mb-2 md:mb-0 md:p-0 md:pl-6 md:col-span-4 lg:col-span-3">
+    <img class="w-full h-full object-cover rounded-3xl " src="/src/assets/Profile.jpg" alt="Profile picture">
+    </div>
+
+    <!-- Info Section -->
+    <div class="flex flex-col gap-y-8 px-6 mb-8 md:col-span-4 md:justify-between md:mb-0 lg:col-span-3">
+      <div class="flex gap-x-4 text-white">
+        <div class="flex items-center justify-between bg-zinc-900 p-3.5 flex-1 rounded-2xl">
+          <p class="text-sm text-gray-300">Based in:</p>
+          <p>Porto</p>
+        </div>
+      </div>
+
+      <div class="flex items-center justify-around text-4xl text-white bg-zinc-900 p-2 rounded-2xl">
+        <span> <i class="bx bxl-instagram cursor-pointer hover:text-[#E4405f] transition-all duration-300 "></i></span>
+        <span> <i class="bx bxl-github cursor-pointer hover:text-[#333] transition-all duration-300 "></i></span>
+        <span> <i class="bx bxl-youtube cursor-pointer hover:text-[#cd201f] transition-all duration-300 "></i></span>
+        
+      </div>
+
+      
+    </div>
+    <!-- Hero Section -->
+    <div class="flex flex-col gap-y-4 bg-zinc-900 m-6 p-3 rounded-2xl mt-6 mb-8 md:col-span-12 md:flex-row md:gap-x-8 md:justify-between md:items-center lg:col-span-6 lg:flex-col lg:items-stretch">
+      <p class="text-white text-xl font-bold text-center leading-10 lg:text-3xl">Turning concepts into captivating frontend experiences.</p>
+      <button class="bg-sky-600 p-2 text-white 
+      font-semibold rounded-2xl hover:bg-sky-500 transition-all duration-300 md:flex-1 lg:flex-none cursor-pointer">Hire Now</button>
+    </div>
+
+    <!-- Stats Section -->
+    <div class="m-6 mb-8 flex gap-x-2 md:col-span-4 md:flex-col md:gap-y-4 md:pr-6 md:m-0 lg:col-span-6 lg:flex-row lg:gap-x-4 lg:ml-0 lg:p-8">
+      <div class="flex flex-col items-center justify-center flex-1 p-4 text-center bg-emerald-500 text-white rounded-2xl">
+        <span class="text-4xl font-bold mb-2">1+</span>
+        <span class="text-sm">Year Experience</span>
+      </div>
+      <div class="flex flex-col items-center justify-center flex-1 p-4 text-center bg-orange-500 text-white rounded-2xl">
+        <span class="text-4xl font-bold mb-2">20+</span>
+        <span class="text-sm">Projects</span>
+      </div>
+      
+      
+    </div>
+
+    <!-- Portfolio Section -->
+    <div class="flex flex-col gap-y-6 mx-6 mb-8 bg-zinc-900 p-3.5 rounded-2xl md:col-span-12 lg:col-span-6 lg:col-start-7 lg:row-start-2 lg:mb-0">
+      <div class="flex items-center justify-between">
+        <h3 class="text-xl font-semibold text-white">My Portifolio</h3>
+        <a href="#" class="text-xl text-gray-300 hover:text-white transition-all duration-300">See All</a>
+      </div>
+
+      <div class="grid grid-cols-2 gap-4 md:grid-cols-4 lg:h-full">
+
+        <div class="group relative lg:h-full">
+          <img class="rounded-2xl object-cover  opacity-100 transition-opacity duration-300 group-hover:opacity-40 h-full" src="/src/assets/1.png" alt="First Portifolio Image">
+          <a href="#" class="absolute inset-0 items-center justify-center font-semibold text-white hidden group-hover:flex">See Project</a>
+        </div>
+
+        <div class="group relative lg:h-full">
+          <img class="rounded-2xl object-cover opacity-100 transition-opacity duration-300 group-hover:opacity-40 h-full" src="/src/assets/2.png" alt="First Portifolio Image">
+          <a href="#" class="absolute inset-0 items-center justify-center font-semibold text-white hidden group-hover:flex">See Project</a>
+        </div>
+
+        <div class="group relative lg:h-full">
+          <img class="rounded-2xl object-cover opacity-100 transition-opacity duration-300 group-hover:opacity-40 h-full" src="/src/assets/3.png" alt="First Portifolio Image">
+          <a href="#" class="absolute inset-0 items-center justify-center font-semibold text-white hidden group-hover:flex">See Project</a>
+        </div>
+
+        <div class="group relative lg:h-full">
+          <img class="rounded-2xl object-cover opacity-100 transition-opacity duration-300 group-hover:opacity-40 h-full" src="/src/assets/4.png" alt="First Portifolio Image">
+          <a href="#" class="absolute inset-0 items-center justify-center font-semibold text-white hidden group-hover:flex">See Project</a>
+        </div>
+
+      </div>
+
+    </div>
+    
+
+    <!-- About Section -->
+     <div class="flex flex-col gap-y-4 bg-zinc-900 p-3.5 rounded-2xl mx-6 mb-8 md:col-span-12 lg:mb-4">
+      <div class="flex items-center justify-between">
+        <h3 class="text-xl font-semibold text-white">About</h3>
+        <a href="#" class="text-xl text-gray-300 hover:text-white transition-all duration-300">Resume</a>
+      </div>
+
+      <p class="text-gray-400">I am a passionate front-end developer with expertise in <strong>HTML, CSS, and JavaScript</strong>, complemented by strong proficiency in frameworks like <strong>React.</strong> I specialize in crafting responsive, accessible, and user-friendly designs that ensure an inclusive experience for all users.</p>
+
+      <p class="text-gray-400">Currently, as a volunteer at Codelândia, I am leading the front-end development of a web application designed for beauty center management. This platform includes key features such as appointment scheduling, customer loyalty tracking, and financial management, showcasing my ability to deliver practical and impactful solutions.</p>
+    
+      <p class="text-gray-400">Beyond my technical skills, I am deeply committed to continuous learning and staying updated with the latest trends in front-end development. This mindset allows me to adapt to new challenges, embrace innovation, and contribute meaningfully to cutting-edge projects.</p>
+
+     </div>
+
+  </div>
+</body>
+</html>

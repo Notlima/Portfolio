@@ -1,0 +1,18 @@
+{
+  "type": "module",
+  "name": "portifolio-main",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "postcss ./src/css/tailwind.css -o ./public/build/tailwind.css --watch"
+  },
+  "keywords": [],
+  "author": "Amilton Castro",
+  "license": "ISC",
+  "description": "Simple portifolio with tailwind",
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.0.6",
+    "postcss-cli": "^11.0.0",
+    "tailwindcss": "^4.0.6"
+  }
+}
